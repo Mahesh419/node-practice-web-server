@@ -62,11 +62,7 @@ app.get('/bad', (req, res) => {
   });
 });
 
-app.get('/malsha', (req, res) => {
-  res.send({
-    message: 'Hello Malsha :P'
-  });
-});
+
 
 app.listen(port, () => {
   console.log(`Server is up in port ${port}`);
